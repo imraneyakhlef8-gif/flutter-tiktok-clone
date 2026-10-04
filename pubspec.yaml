@@ -18,8 +18,11 @@ dependencies:
   firebase_auth: ^4.15.0
 
   # Video playback
-  video_player: ^2.8.1
+  video_player: ^2.7.0
   chewie: ^1.7.4
+
+  # Google Mobile Ads
+  google_mobile_ads: ^3.0.0
 
   # UI & State Management
   provider: ^6.1.0
