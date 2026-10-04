@@ -1,35 +1,23 @@
-# flutter-tiktok-clone
+# 🎬 DramaBox Clone - Short Drama App | Available for Freelance
+
+> **Want an app like DramaBox / ReelShort? I build it for you!**
+> 📩 Contact me on Fiverr / Upwork - Full Source Code + APK Available
+
+[![Flutter](https://img.shields.io/badge/Flutter-3.22-blue)]()
+[![Firebase](https://img.shields.io/badge/Firebase-Integrated-orange)]()
 
 A short drama app MVP inspired by DramaBox, built with Flutter and Firebase.
+Features infinite vertical video feed, like TikTok / DramaBox style.
 
-## Features
-- Black/red dark theme
+### ✨ Features
+- Black/red dark theme (DramaBox style)
 - Vertical video feed
 - Firebase anonymous auth
 - Video upload to Firebase Storage
 - Firestore-based drama episodes feed
 
-## Setup
-1. Install Flutter SDK.
-2. Run:
-   ```bash
-   flutter pub get
-   ```
-3. Configure Firebase:
-   ```bash
-   flutterfire configure
-   ```
-4. Run the app:
-   ```bash
-   flutter run
-   ```
-
-## Firebase Firestore structure
-Use a collection named:
-
-```text
-drama_videos
-```
+### 🔥 Firestore Structure
+Use a collection named: `drama_videos`
 
 Each document should contain:
 - `title: string`
@@ -42,5 +30,8 @@ Each document should contain:
 - `comments: number`
 - `createdAt: timestamp`
 
-## Notes
-This is a lightweight MVP focused on feed + upload.
+### 🚀 Setup
+1. Install Flutter SDK
+2. Run:
+```bash
+flutter pub get
